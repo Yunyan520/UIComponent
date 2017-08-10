@@ -20,6 +20,7 @@
 		619495E71F2F080D0089DD05 /* GYUIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 619495E61F2F080D0089DD05 /* GYUIManager.m */; };
 		619495ED1F2F0BD60089DD05 /* GYCustomLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 619495EC1F2F0BD60089DD05 /* GYCustomLabel.m */; };
 		619495F11F2F0D860089DD05 /* GYFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 619495EF1F2F0D860089DD05 /* GYFrame.m */; };
+		61E379D61F3C3A23004AA33E /* GYCustomImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E379D51F3C3A23004AA33E /* GYCustomImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		619495EE1F2F0D860089DD05 /* GYFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYFrame.h; sourceTree = "<group>"; };
 		619495EF1F2F0D860089DD05 /* GYFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYFrame.m; sourceTree = "<group>"; };
 		619495F01F2F0D860089DD05 /* GYScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYScreen.h; sourceTree = "<group>"; };
+		61E379D41F3C3A23004AA33E /* GYCustomImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYCustomImageView.h; sourceTree = "<group>"; };
+		61E379D51F3C3A23004AA33E /* GYCustomImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYCustomImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,8 @@
 				619495EC1F2F0BD60089DD05 /* GYCustomLabel.m */,
 				615C6F291F3BFAB400ABCFB3 /* GYCustomButton.h */,
 				615C6F2A1F3BFAB400ABCFB3 /* GYCustomButton.m */,
+				61E379D41F3C3A23004AA33E /* GYCustomImageView.h */,
+				61E379D51F3C3A23004AA33E /* GYCustomImageView.m */,
 				615C6F261F3BF3D600ABCFB3 /* GYUIBaseInfo.h */,
 				615C6F271F3BF3D600ABCFB3 /* GYUIBaseInfo.m */,
 				619495BB1F2F07D40089DD05 /* Main.storyboard */,
@@ -300,6 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61E379D61F3C3A23004AA33E /* GYCustomImageView.m in Sources */,
 				615C6F2B1F3BFAB400ABCFB3 /* GYCustomButton.m in Sources */,
 				619495BA1F2F07D40089DD05 /* ViewController.m in Sources */,
 				619495B71F2F07D40089DD05 /* AppDelegate.m in Sources */,
